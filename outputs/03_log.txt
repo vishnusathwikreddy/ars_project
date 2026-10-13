@@ -1,0 +1,10 @@
+Loaded 41,040 footprints, 41,040 with complete predictors, 193 spatial blocks of 5 km
+[S2_leafon] 18 features (dropped ['B7_on', 'B8_on', 'B8A_on', 'SAVI_on', 'NBR_on', 'CIre_on']) R2=0.205 RMSE=50.4 rRMSE=55.5%
+[S2_twoseason] 38 features (dropped ['B7_on', 'B8_on', 'B8A_on', 'SAVI_on', 'NBR_on', 'CIre_on', 'B7_off', 'B8A_off', 'SAVI_off', 'NBR_off']) R2=0.242 RMSE=49.3 rRMSE=54.2%
+[S2_twoseason_terrain] 43 features (dropped ['B7_on', 'B8_on', 'B8A_on', 'SAVI_on', 'NBR_on', 'CIre_on', 'B7_off', 'B8A_off', 'SAVI_off', 'NBR_off']) R2=0.295 RMSE=47.5 rRMSE=52.2%
+Best feature set: S2_twoseason_terrain
+Random CV R2=0.342 RMSE=45.9 (optimistic, for comparison)
+Best params: {'max_features': 0.5, 'min_samples_leaf': 5}
+Final spatial CV: {'n': 41040, 'r2': 0.29580279956544264, 'rmse': 47.47570111560716, 'rrmse_pct': 52.20216958867958, 'mae': 35.85337227243158, 'bias': 1.1597111376380742}
+Wrote /home/sathwik/ars_project/outputs/model_config.json
+EXIT 0

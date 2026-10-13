@@ -1,0 +1,4 @@
+feature_set,n_features,n,r2,rmse,rrmse_pct,mae,bias
+S2_leafon,18,41040,0.205,50.443,55.465,38.54,0.78
+S2_twoseason,38,41040,0.242,49.261,54.166,37.517,1.14
+S2_twoseason_terrain,43,41040,0.295,47.491,52.219,35.882,1.09

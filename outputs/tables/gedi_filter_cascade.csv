@@ -1,0 +1,10 @@
+stage,shots
+all shots,1606351
++ quality/degrade/algorithm flags,254496
++ sensitivity >= 0.95,254494
+"+ leaf-on months (7, 1)",173852
++ AGBD range / beam / SE limits,173799
++ in WorldCover tree cover,62597
++ homogeneous tree cover,44616
++ no Hansen loss since 2019 (training set),44608
+   of which on pixels with loss 2001-2018,58
