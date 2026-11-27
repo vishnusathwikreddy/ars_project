@@ -1,0 +1,6 @@
+model,evaluated_on,n,r2,rmse,rrmse_pct,mae,bias,slope,mean_obs,mean_pred
+FULL,all footprints,41040,0.297,47.444,52.167,35.826,1.165,0.276,90.946,92.111
+FULL,DBT footprints,24179,0.2,39.506,47.936,30.93,4.566,0.255,82.413,86.979
+DBT,DBT footprints,24179,0.252,38.199,46.35,29.643,1.215,0.24,82.413,83.628
+FULL,non-DBT footprints,16861,0.316,56.927,55.171,42.848,-3.712,0.271,103.183,99.47
+DBT,non-DBT footprints,16861,0.066,66.516,64.464,51.563,-15.522,0.098,103.183,87.66

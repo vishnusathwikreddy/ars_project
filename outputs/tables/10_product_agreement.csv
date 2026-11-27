@@ -1,0 +1,13 @@
+level,map,n,unit,mean_map,mean_product,mean_diff,rmsd,pearson_r
+"ESA CCI, 100 m cells",RF,159566,cells,92.438,38.571,53.867,62.102,0.228
+"ESA CCI, 100 m cells",XGB,159566,cells,92.079,38.571,53.507,62.769,0.25
+"ESA CCI, 100 m cells",MLP,159566,cells,90.764,38.571,52.193,63.418,0.263
+"ESA CCI, 100 m cells",ENS,159566,cells,91.76,38.571,53.189,62.458,0.253
+"ESA CCI, 100 m cells",GEE_RF,159566,cells,92.251,38.571,53.68,62.029,0.231
+"GEDI L4B, 1 km cells",RF,505,cells,89.28,78.361,10.919,23.11,0.687
+"GEDI L4B, 1 km cells",XGB,505,cells,88.952,78.361,10.591,22.743,0.7
+"GEDI L4B, 1 km cells",MLP,505,cells,87.126,78.361,8.765,22.369,0.709
+"GEDI L4B, 1 km cells",ENS,505,cells,88.453,78.361,10.092,22.437,0.704
+"GEDI L4B, 1 km cells",GEE_RF,505,cells,89.076,78.361,10.715,22.902,0.692
+"GEDI L4B QF=2, 1 km cells",RF,469,cells,88.235,77.892,10.343,22.574,0.715
+"GEDI L4B QF=2, 1 km cells",MLP,469,cells,85.806,77.892,7.914,21.208,0.736

@@ -22,6 +22,15 @@ Then set `GEE_PROJECT` in `config.py`.
 | 3 | `03_train_model.py` | local | feature-set comparison, spatial CV, tuning, importance, `outputs/model_config.json` |
 | 4 | `04_predict_map.py` | GEE | GEE/sklearn parity check, AGBD map (asset + GeoTIFF on Drive), totals |
 | 5 | `05_drivers_analysis.py` | GEE + local | AGBD vs elevation, slope, aspect, forest type, canopy density, disturbance (`--layers-only` pre-exports the class/covariate layers; can run before step 4) |
+| 6 | `06_report_map.py` | GEE + local | map figure for the report |
+| 7 | `07_compare_models.py` | local, GPU | RF vs XGBoost vs MLP vs ensemble: nested spatial CV, block-bootstrap CIs, final models in `outputs/models/`. Results are cached in `outputs/models/cache/` (resumable); `--fold k` / `--final-only` run single outer folds / the final fit as parallel processes, then a plain run assembles |
+| 8 | `08_export_predictors.py` | GEE | predictor stack over tree cover -> asset (several hours) |
+| 9 | `09_map_compare.py` | GEE + local, GPU | downloads the stack, predicts XGB/MLP/ENS maps (`outputs/maps/`), totals, agreement, drivers per model |
+| 10 | `10_baseline_products.py` | GEE + local | comparison with GEDI L4B and ESA CCI Biomass over the same pixels, GEDI AGBD by season |
+| 11 | `11_pft_sensitivity.py` | local | RF refit on deciduous-broadleaf (PFT 4) footprints only vs all footprints: accuracy, high-AGBD bias, level shift, slope association |
+| 12 | `12_review_checks.py` | local | review checks: 193 vs 191 blocks, CV error by acquisition year, UTM area distortion, totals = mean x area |
+
+Steps 7 and 9 use the GPU if available: `CUDA_VISIBLE_DEVICES=0 python 07_compare_models.py`.
 
 ## Method summary (defaults in `config.py`)
 - **GEDI L4A** (`LARSE/GEDI/GEDI04_A_002_MONTHLY`, 2019-04 to 2025-06): `l4_quality_flag=1`, `degrade_flag=0`,

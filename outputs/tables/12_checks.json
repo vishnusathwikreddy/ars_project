@@ -1,0 +1,62 @@
+{
+  "blocks": {
+    "n_blocks": 193,
+    "n_blocks_ge_26": 191,
+    "small_blocks": {
+      "15000481": 1,
+      "16200488": 3
+    },
+    "footprints_in_small_blocks": 4,
+    "max_dist_to_edge_m": 5.000000328756869
+  },
+  "utm_areal_scale": {
+    "mean": 1.0013919868770529,
+    "min": 1.0004489727680268,
+    "max": 1.0022104204803506
+  },
+  "totals_check": [
+    {
+      "model": "RF",
+      "forest_area_ha": 214257.562,
+      "mean_agbd": 90.185,
+      "total_agb_Tg": 19.323,
+      "mean_x_area_Tg": 19.323
+    },
+    {
+      "model": "XGB",
+      "forest_area_ha": 214257.562,
+      "mean_agbd": 88.604,
+      "total_agb_Tg": 18.984,
+      "mean_x_area_Tg": 18.984
+    },
+    {
+      "model": "MLP",
+      "forest_area_ha": 214257.562,
+      "mean_agbd": 86.757,
+      "total_agb_Tg": 18.588,
+      "mean_x_area_Tg": 18.588
+    },
+    {
+      "model": "GEE_RF",
+      "forest_area_ha": 214257.562,
+      "mean_agbd": 89.897,
+      "total_agb_Tg": 19.261,
+      "mean_x_area_Tg": 19.261
+    },
+    {
+      "model": "ENS",
+      "forest_area_ha": 214257.562,
+      "mean_agbd": 88.515,
+      "total_agb_Tg": 18.965,
+      "mean_x_area_Tg": 18.965
+    }
+  ],
+  "ee_totals": {
+    "mean_agbd_Mg_ha": 89.90691588938866,
+    "forest_area_ha": 213794.9931152481,
+    "total_agb_Tg": 19.221648463585037,
+    "total_carbon_Tg": 9.034174777884967
+  },
+  "area_ratio_local_to_ee": 1.0021636095308488,
+  "local_area_divided_by_mean_utm_scale_ha": 213959.73285964163
+}

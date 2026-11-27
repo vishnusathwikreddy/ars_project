@@ -1,0 +1,7 @@
+source,n,r2,rmse,bias,pearson_r
+ESA CCI 2020-2022 mean (no training),39530,-0.897,77.376,-53.282,0.227
+"LIN (spatial CV, out-of-fold)",41040,0.274,48.217,0.13,0.523
+"RF (spatial CV, out-of-fold)",41040,0.295,47.487,1.109,0.546
+"XGB (spatial CV, out-of-fold)",41040,0.317,46.772,0.3,0.563
+"MLP (spatial CV, out-of-fold)",41040,0.347,45.732,0.001,0.592
+"ENS (spatial CV, out-of-fold)",41040,0.344,45.835,0.47,0.587

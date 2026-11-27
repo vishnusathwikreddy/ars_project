@@ -1,0 +1,7 @@
+subset,n,what,rho
+all,41040,GEDI AGBD,0.222
+DBT,24179,GEDI AGBD,0.334
+grass,10859,GEDI AGBD,0.054
+crops,5977,GEDI AGBD,0.274
+all,41040,FULL prediction (CV),0.382
+all,41040,DBT prediction (CV),0.674

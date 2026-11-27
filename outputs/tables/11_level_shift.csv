@@ -1,0 +1,4 @@
+over,mean_gedi,mean_full,mean_dbt,ratio_dbt_to_full
+all footprints,90.946,92.111,85.285,0.926
+DBT footprints,82.413,86.979,83.628,0.961
+non-DBT footprints,103.183,99.47,87.66,0.881

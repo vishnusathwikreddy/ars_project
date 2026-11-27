@@ -1,0 +1,7 @@
+season,mask,shots,mean_agbd
+leaf-on,training mask,41072,90.84
+leaf-on,all tree cover,53359,87.64
+leaf-on,all land,94980,66.06
+leaf-off,training mask,9398,75.57
+leaf-off,all tree cover,13746,67.92
+leaf-off,all land,31287,42.22

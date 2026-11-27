@@ -1,0 +1,7 @@
+pft_class,name,n,share_pct,mean_agbd,median_agbd,mean_se,share_gt200_pct,mean_pred_full_cv,mean_slope_deg,share_of_all_gt200_pct
+2,Evergreen broadleaf trees,8,0.02,79.19,83.5,17.12,0.0,65.98,6.71,0.0
+4,Deciduous broadleaf trees,24179,58.92,82.41,73.36,17.13,1.69,87.06,12.9,20.89
+6,Grasses,10859,26.46,130.16,125.17,3.07,13.57,111.92,12.83,75.28
+7,Cereal crops,4023,9.8,58.4,45.87,9.53,1.54,78.18,14.83,3.17
+8,Broadleaf crops,1954,4.76,46.14,34.03,14.25,0.67,73.62,9.01,0.66
+9,Urban/built-up,17,0.04,33.2,19.63,17.13,0.0,44.65,2.63,0.0
